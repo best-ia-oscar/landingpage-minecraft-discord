@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: landingpage-minecraft-discord
+    env: static
+    staticPublishPath: .
+    pullRequestPreviewsEnabled: false
+    buildCommand: ""
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
